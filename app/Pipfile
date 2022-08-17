@@ -4,7 +4,7 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-test-library = {subdirectory = "library", editable = true, git = "https://github.com/rtandy/setuptools-editable-subdirectory"}
+test-library = {subdirectory = "library", editable = true, ref = "older-setuptools", git = "https://github.com/rtandy/setuptools-editable-subdirectory"}
 
 [dev-packages]
 mypy = "*"
